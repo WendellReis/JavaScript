@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+}
+
+.btn{
+    color:black;
+    font-weight:bold;
+    background-color:white;
+    border-color:black;
+    border-width:5px;
+    height:200px;
+    width:200px;
+    font: normal 20pt sans-serif;
+    line-height:200px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.tituloMenu{
+    font: bold 16pt sans-serif;
+}
+
+table{
+    width:60%;
+}
+th{
+    text-align:center;
+}
+
+.resetar{
+    font-size:16px;
+    background-color: white;
+    color:black;
+    font-weight:bold;
+    border-color:black;
+    transition-duration: 0.4s;
+}
+
+.resetar:hover{
+    background-color: black;
+    color:white;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3)
+}
