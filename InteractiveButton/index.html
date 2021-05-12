@@ -17,10 +17,11 @@
             Interaja...
         </button><br><br><br>
         <input type="button" value="Resetar" onclick="resetar()" class="resetar"><br><br>
-        <input type="button" value="Bloquear" onclick="bloquear()" class="bloquear">
+        <button class="bloquear" onclick="bloquear()">Bloquear</button>
     </center>
     <script>
         var btn = window.document.querySelector('button.btn')
+        var btn_block = document.querySelector('button.bloquear')
         var cursor = 0
 
         btn.addEventListener('click', clicar)
@@ -73,12 +74,20 @@
             btn.style.background = "white"
             btn.style.color = "black"
             btn.style.cursor = "default"
+            btn_block.innerText = "Bloquear"
             cursor = 0
         }
 
         function bloquear() {
-            btn.style.cursor = "no-drop"
-            cursor = 1
+            if (cursor == 0) {
+                btn.style.cursor = "no-drop"
+                btn_block.innerText = "Desbloquear"
+                cursor = 1
+            } else {
+                btn.style.cursor = "default"
+                btn_block.innerText = "Bloquear"
+                cursor = 0
+            }
         }
 
     </script>

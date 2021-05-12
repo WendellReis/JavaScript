@@ -61,3 +61,7 @@ th{
     -ms-transform: scale(1.3);
     transform: scale(1.3)
 }
+
+table{
+    width: 100%;
+}
