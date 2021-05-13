@@ -1,0 +1,44 @@
+body{
+    font-family:sans-serif;
+    text-align:center;
+    background-image: linear-gradient(to right,rgb(14, 217, 224) , rgb(14, 122, 224));
+    margin-top:2%;
+    color:white;
+}
+
+.caixa{
+    background-color:white;
+    width:500px;
+    height:400px;
+    color:white;
+    border-radius:3%;
+    padding:15px;
+    margin:auto;
+    color:rgb(27, 27, 27);
+    font-size:22px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.msg{
+    margin-top:6%
+}
+h1{
+    font-weight:bold;
+    font-size:40px;
+    color:white;
+}
+
+footer{
+    font-weight:bold;
+}
+
+.foto{
+    margin-top:10%;
+    color:black
+}
+
+img{
+    border-radius:10%;
+    width:320px;
+    height:212px;
+}
