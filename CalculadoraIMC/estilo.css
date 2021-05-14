@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+    background-image: linear-gradient(to right, rgb(40, 96, 201), rgb(90, 131, 207));
+    color: white;
+    text-align:center;
+}
+
+.box{
+    width:40%;
+    height:400px;
+    background-color:azure;
+    border-radius:5%;
+    color:rgb(33, 34, 37);
+    font-size:18px;
+    margin-top:5%;
+    padding-top:2%;
+}
+
+.resultado{
+    background-color:rgb(40, 96, 201);
+    width:10%;
+    color:white;
+    border-radius:5%;
+    width:100px;
+}
+
+.calcular{
+    background-color:black;
+    border-color:black;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    border-radius:10%;
+    transition-duration: 0.4s;
+}
+
+.calcular:hover{
+    background-color:rgb(90, 131, 207);
+    border-color:rgb(90, 131, 207);
+    color:white;
+    border-color:aliceblue;
+    cursor:pointer;
+}
+
+input{
+    border-radius:5%;
+    border-color:aliceblue;
+    font-size:16px;
+}
