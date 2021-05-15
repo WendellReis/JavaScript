@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -13,10 +13,33 @@
     <h1>Calculadora de IMC</h1>
     <center>
         <div class="box">
-            <p>Altura: <input id="altura" type="text" name="altura" placeholder="1,75"> m</p>
-            <p>Peso: <input id="peso" type="text" name="peso" placeholder="62,5"> Kg</p>
-            <button class="calcular" onclick="calcular()">Calcular</button>
+            <table>
+                <tr>
+                    <td>
+                        <p>Altura: </p>
+                    </td>
+                    <td>
+                        <input id="altura" type="text" name="altura" placeholder="1,75" size="10"> m
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Peso: </p>
+                    </td>
+                    <td>
+                        <input id="peso" type="text" name="peso" placeholder="62,5" size="10"> Kg
+                    </td>
+                </tr>
+            </table>
             <p class="resultado">IMC: </p>
+            <div class="descricao">
+                <p id="desc1">IMC:</p>
+                <p id="desc2">Classificação:</p>
+                <p id="desc3">Obesidade (grau):</p>
+            </div>
+            <br>
+            <button class="btn" onclick="calcular()">Calcular</button>
+            <button class="btn" onclick="limpar()">Limpar</button>
         </div>
     </center>
     <script src="script.js"></script>

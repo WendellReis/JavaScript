@@ -5,6 +5,12 @@ body{
     text-align:center;
 }
 
+input{
+    border-radius:5%;
+    border-color:aliceblue;
+    font-size:16px;
+}
+
 .box{
     width:40%;
     height:400px;
@@ -14,36 +20,37 @@ body{
     font-size:18px;
     margin-top:5%;
     padding-top:2%;
+    box-shadow: 5px 5px 5px rgb(0, 42, 119);
 }
 
 .resultado{
+    vertical-align:bottom;
     background-color:rgb(40, 96, 201);
-    width:10%;
     color:white;
-    border-radius:5%;
-    width:100px;
+    width:39%;
+    font-size:22px;
+    padding:0.5%;
 }
 
-.calcular{
-    background-color:black;
-    border-color:black;
+.btn{
+    background-color:rgb(90, 131, 207);
+    border-color:rgb(90, 131, 207);
     color:white;
+    border-color:aliceblue;
     font-weight:bold;
     font-size:18px;
     border-radius:10%;
     transition-duration: 0.4s;
 }
 
-.calcular:hover{
-    background-color:rgb(90, 131, 207);
-    border-color:rgb(90, 131, 207);
+.btn:hover{
+    background-color:rgb(0, 42, 119);
+    border-color:rgb(0, 42, 119);
     color:white;
-    border-color:aliceblue;
     cursor:pointer;
 }
 
-input{
-    border-radius:5%;
-    border-color:aliceblue;
-    font-size:16px;
+.descricao{
+    text-align:justify;
+    padding-left:5%;
 }
