@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+
+<body>
+    <h1>Contador de Números</h1>
+    <center>
+        <div class="box">
+            <table>
+                <tr>
+                    <td>
+                        <p>Início: </p>
+                    </td>
+                    <td>
+                        <input id="inicio" type="number" name="inicio" placeholder="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Fim: </p>
+                    </td>
+                    <td>
+                        <input id="fim" type="number" name="fim" placeholder="25">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Passo: </p>
+                    </td>
+                    <td>
+                        <input id="passo" type="number" name="passo" placeholder="3">
+                    </td>
+                </tr>
+            </table>
+            <button class="btn" onclick="contar()">Contar</button>
+            <p class="contagem">Contando...</p>
+            <button class="btn" onclick="limpar()">Limpar</button>
+        </div>
+        <footer>&copy; Wendell Reis</footer>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
