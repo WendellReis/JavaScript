@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+</head>
+
+<body>
+    <h1>Tabuada</h1>
+    <center>
+        <div class="box">
+            <table>
+                <tr>
+                    <td>
+                        Número:
+                    </td>
+                    <td>
+                        <input id="num" type="number" name="number" placeholder="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Linhas:
+                    </td>
+                    <td>
+                        <input id="lin" type="number" name="linhas" placeholder="10">
+                    </td>
+                </tr>
+            </table>
+            <p id="resultado">Aguardando...</p>
+            <button class="btn" onclick="calcular()">Calcular</button>
+            <button class="btn" onclick="limpar()">Limpar</button>
+            </div>
+            <footer>&copy; Wendell Reis</footer>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
