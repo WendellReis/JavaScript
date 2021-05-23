@@ -9,18 +9,18 @@ function calcular() {
 
     if (l < 0) {
         alert("O número de linhas não pode ser menor 0!")
-        lin.value=""
+        lin.value = ""
     } else {
         resultado.innerHTML = "Resultado: <br>"
-        while(i <= l) {
+        while (i <= l) {
             resultado.innerHTML += `${n} x ${i} = ${n * i} <br>`
             i++
         }
     }
 }
 
-function limpar(){
-    resultado.innerText = "Aguardando..." 
-    num.value=""
-    lin.value=""
+function limpar() {
+    resultado.innerText = "Aguardando..."
+    num.value = ""
+    lin.value = ""
 }
